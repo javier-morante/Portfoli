@@ -1,0 +1,205 @@
+﻿body {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 110vw;
+    overflow: overley;
+}
+
+footer{
+    margin: 3% 0 3% 0;
+    text-align: center;
+}
+
+/* Custom ScrollBar */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    background-color: #a7ff79;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* width: 3px !important; */
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #40ebb8;
+    border-radius: 25px;
+}
+
+/* complete form position */
+
+.userinteractions {
+    width: 50%;
+    padding: 1em;
+    margin: 0 25% 0 25%;
+}
+
+.userinterac {
+    width: 90%;
+    margin: 2% 5% 0 5%;
+}
+
+/* titles and subtitles */
+
+.titles {
+    text-align: center;
+    font-size: 500%;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 200%;
+}
+
+/* Error text */
+
+.errortext {
+    margin-top: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.errse{
+    position: absolute;
+    text-align: center;
+}
+/* boostrap acordion edits */
+.acordionc {
+    background: none;
+}
+
+.accordion {
+    --bs-accordion-bg: none;
+    --bs-accordion-border-color: none;
+}
+
+.accordion-button {
+    background-color: white;
+}
+
+.accordion-body {
+    border: 2px black dashed;
+}
+
+/* formulari page modifications */
+
+.lbl {
+    font-size: 120%;
+    margin: 1% 0 1% 0;
+}
+
+/* Show data */
+
+.txt-p{
+    font-size: 150%;
+}
+
+.txt-c{
+    text-align: center;
+}
+
+.txt-cb{
+    color: rgb(28, 138, 185);
+}
+
+.content{
+    display: grid;
+    grid-template-areas: "fa fa fa"
+                         "pr pr pr"
+                         "anmimg manimg anivimg";
+    grid-template-columns:  33.33% 33.33% 33.33%;
+    align-items: center;
+    justify-content: center;
+}
+.content-img{
+    width: 50%;
+}
+
+.fa{
+    grid-area: fa;
+    justify-self: center;
+}
+
+.pr{
+    justify-self: center;
+    grid-area: pr;
+}
+
+.ani{
+    grid-area: anmimg;
+    justify-self: center;
+    align-self: center;
+}
+.img{
+    margin-top: 5%;
+    width: 100%;
+    background: black;
+
+}
+
+.d-tr{
+    background: transparent;
+}
+
+.s-150p{
+    width: 150%;
+}
+.s-100p{
+    width: 80%;
+}
+
+.mangav{
+    grid-area: manimg;
+    justify-self: center;
+    align-self: center;
+}
+
+.aniv{
+    grid-area: anivimg;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Out button */
+
+a{
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+    right: 10%;
+}
+
+.btt-out{
+    line-height: 30px;
+    text-align: center;
+    color:  white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #E51200;
+    
+}
+
+.btt-out:hover{
+    background: #b11405;
+}
+
+/*log out*/
+
+.content-aout{
+    display: grid;
+    
+}
+
+.cat{
+    justify-self: center;
+    align-self: center;
+    width: 450px;
+    
+}

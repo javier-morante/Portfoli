@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Nation</title>
+    <link rel="stylesheet" href="global_syle.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="change.js"></script>
+</head>
+<body>
+    <header id="inici">
+        <img src="img/logoe.png" alt="logo" class="logo">
+        <h1  class="tittle">M<span class="s1">a</span>ng<span class="s2">a</span> N<span class="s3">a</span>ti<span class="s4">o</span>n</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul class="menu">
+            <li class="menu_item"><a href="#inici" class="menu_link1" onclick="iniciv()">Inicio</a></li>
+            <li class="menu_item"><a href="#inici" class="menu_link2" onclick="galeryv()">Galeria d’imatges</a></li>
+            <li class="menu_item"><a href="#inici" class="menu_link3" onclick="enllv()">Enllaços</a></li>
+            <li class="menu_item"><a href="#inici" class="menu_link4" onclick="noticiv()">Notícies</a></li>
+        </ul>
+    </nav>
+    <main>
+        <iframe src="./ifrmas/inicio/inicio.html" frameborder="0" class="inicio" id="inicio" style="display: block;"></iframe>
+        <iframe src="./ifrmas/galery/galery.html" frameborder="0" class="galery" id="galery" style="display: none;"></iframe>
+        <iframe src="./ifrmas/enllaços/enllaços.html" frameborder="0" class="enlla" id="enlla" style="display: none;"></iframe>
+        <iframe src="./ifrmas/noti/noti.html" frameborder="0" class="notici" id="notici" style="display: none;"></iframe>
+    </main>
+    <footer>
+        <div class="footc">
+            <h1>Javier Morante Nuñez curs 22-23</h1>
+        </div>
+    </footer>
+    <script src="change.js"></script>
+</body>
+</html>

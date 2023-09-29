@@ -1,0 +1,61 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: none;
+    
+}
+
+.titt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: black;
+}
+table{
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* forma amb grid */
+
+/* .cimg{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25% ;
+    overflow: hidden;
+} */
+
+.chimg{
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 350px;
+    max-height: 400px;
+    overflow: hidden;
+    width: 100%;
+    height: 100;
+    
+}
+
+img{
+    
+    max-width: 350px;
+    max-height: 400px;
+    overflow: hidden;
+    object-fit: contain;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    width: 100%;
+    height: 100;
+}
+
+.chimg:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
