@@ -8,3 +8,5 @@ De mis modulos:
 - [M02](https://github.com/javier-morante/Portfolio/tree/main/Moduls/M02-BaseDeDades)
 - [M03](https://github.com/javier-morante/Portfolio/tree/main/Moduls/M03-Programacio)
 - [M04](https://github.com/javier-morante/Portfolio/tree/main/Moduls/M04-LlenguatgeDeMarques)
+
+[Si queres ver mi curriculum haz clic ](https://github.com/javier-morante/Portfolio/blob/main/CV/JavierMoranteNuñez.pdf)
